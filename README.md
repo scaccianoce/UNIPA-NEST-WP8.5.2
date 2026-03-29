@@ -1,6 +1,6 @@
 # LCADUBS
 
-LCADUBS is a Python-based open-source workflow for generating EnergyPlus models from GIS building footprints, simulating energy performance at cluster scale, evaluating early-stage LCA indicators, and exploring discrete retrofit combinations through Pareto optimization.
+LCADUBS is a Python-based open-source workflow for generating EnergyPlus models from GIS building footprints, simulating energy performance at cluster scale, evaluating early-stage LCA indicators, and exploring discrete retrofit combinations through Pareto optimization. The present work has been developed within the project funded under the National Recovery and Resilience Plan (NRRP), Mission 4 Component 2 Investment 1.3 – Call for tender N. 341 of 15.03.2022 of Ministero dell’Universita ` e della Ricerca (MUR); funded by the European Union – NextGenerationEU. Award Number: Project code PE0000021, Concession Decree No. 1561 of 11.10.2022 adopted by Ministero dell’Universita ` e della Ricerca (MUR), CUP E63C22002160007, Project title “Network 4 Energy Sustainable Transition – NEST".
 
 The tool currently supports:
 
