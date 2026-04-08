@@ -174,10 +174,6 @@ This means that:
 The repository already contains:
 
 - `docs/Engineering_Reference_Manual.md`
-- `docs/Engineering_Reference_Manual.tex`
-- `docs/Engineering_Reference_Manual.docx`
 - `docs/LCA_Early_Database_Report.md`
-- `docs/LCA_Early_Database_Report.tex`
-- `docs/LCA_Early_Database_Report.docx`
 
 These files document the architecture, mathematical model, LCA database logic, and the implemented optimization workflow.
