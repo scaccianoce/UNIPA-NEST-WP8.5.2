@@ -1,6 +1,6 @@
-# LCADUBS
+# LCAUDBS
 
-LCADUBS is a Python-based open-source workflow for generating EnergyPlus models from GIS building footprints, simulating energy performance at cluster scale, evaluating early-stage LCA indicators, and exploring discrete retrofit combinations through Pareto optimization. The present work has been developed within the project funded under the National Recovery and Resilience Plan (NRRP), Mission 4 Component 2 Investment 1.3 – Call for tender N. 341 of 15.03.2022 of Ministero dell'Università e della Ricerca (MUR); funded by the European Union – NextGenerationEU. Award Number: Project code PE0000021, Concession Decree No. 1561 of 11.10.2022 adopted by Ministero dell’Università e della Ricerca (MUR), CUP E63C22002160007, Project title "Network 4 Energy Sustainable Transition – NEST".
+LCAUDBS is a Python-based open-source workflow for generating EnergyPlus models from GIS building footprints, simulating energy performance at cluster scale, evaluating early-stage LCA indicators, and exploring discrete retrofit combinations through Pareto optimization. The present work has been developed within the project funded under the National Recovery and Resilience Plan (NRRP), Mission 4 Component 2 Investment 1.3 – Call for tender N. 341 of 15.03.2022 of Ministero dell'Università e della Ricerca (MUR); funded by the European Union – NextGenerationEU. Award Number: Project code PE0000021, Concession Decree No. 1561 of 11.10.2022 adopted by Ministero dell’Università e della Ricerca (MUR), CUP E63C22002160007, Project title "Network 4 Energy Sustainable Transition – NEST".
 
 The tool currently supports:
 
@@ -168,49 +168,6 @@ This means that:
 - the Pareto front is extracted from explicitly simulated scenarios;
 - continuous automatic generation of insulation thickness variants in EnergyPlus is not yet implemented.
 
-## Uploading the project to GitHub
-
-If the project is not yet a Git repository, open a terminal inside the project folder and run:
-
-```bash
-git init
-git branch -M main
-git add .
-git commit -m "Initial commit"
-```
-
-Then create a new empty repository on GitHub, for example `LCADUBS`.
-
-After GitHub shows you the repository URL, connect the local folder to GitHub:
-
-```bash
-git remote add origin https://github.com/<your-username>/LCADUBS.git
-git push -u origin main
-```
-
-If GitHub asks for authentication, use your GitHub account and, if required, a personal access token instead of a password.
-
-### Recommended GitHub workflow for future updates
-
-After the first upload, the usual update flow is:
-
-```bash
-git status
-git add .
-git commit -m "Describe your changes"
-git push
-```
-
-### Suggested first checks before pushing
-
-Before publishing, review:
-
-- large simulation output folders you may not want to version;
-- local virtual environments such as `.venv/`;
-- temporary files;
-- machine-specific absolute paths.
-
-If needed, add a `.gitignore` file before pushing.
 
 ## Documentation
 
